@@ -47,7 +47,7 @@ const getMoonPhase = async function () {
 
         //Weather API--Astronomy
         const responseMoon = await fetch(
-            `http://api.weatherapi.com/v1/astronomy.json?key=61e062c61e5149e1a5b01136212302&q=${latitude},${longitude}`
+            `https://api.weatherapi.com/v1/astronomy.json?key=61e062c61e5149e1a5b01136212302&q=${latitude},${longitude}`
         );
         if (!responseMoon.ok) throw new Error('Could not retrieve current moon phase');
 
