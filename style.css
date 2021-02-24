@@ -34,3 +34,7 @@ img {
 .locationTimezone {
     font-style: italic;
 }
+
+.hidden {
+    display: none;
+}
