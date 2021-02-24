@@ -40,7 +40,6 @@ const displayPosition = async function () {
         }`;
     } catch (err) {
         console.error(err);
-        alert(err);
         location.reload();
     }
 };
