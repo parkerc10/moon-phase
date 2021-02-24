@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top left, rgb(41, 116, 255), rgb(121, 102, 230));
+    font-family: sans-serif;
+}
+
+img {
+    height: 25rem;
+}
+
+.location,
+.moonDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid;
+    padding: 15px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, rgb(41, 116, 255), rgb(121, 102, 230));
+}
+
+.moonIllumination,
+.locationTimezone {
+    font-style: italic;
+}
